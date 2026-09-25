@@ -1,6 +1,6 @@
 {
   "name": "Branzy Digital Marketing Hero",
-  "description": "A precise, pixel-perfect dark glossy hero section for Branzy.in with glassmorphism navigation, custom typography, glossy neon green action buttons, and social proof.",
+  "description": "Award-winning dark glossy website for Branzy.in featuring glassmorphism navigation, dynamic 3D tilt interactions, and an intelligent Gemini-powered Branzy AI Marketing Strategist chatbot.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

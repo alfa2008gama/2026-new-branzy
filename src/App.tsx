@@ -10,6 +10,7 @@ import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { Modal } from './components/Modal';
 import { ScrollProgressBar } from './components/ScrollProgressBar';
+import { MarketingChatbot } from './components/MarketingChatbot';
 import { useScrollAnimations } from './hooks/useScrollAnimations';
 import { NavItem, ModalState } from './types';
 
@@ -89,6 +90,9 @@ export default function App() {
 
       {/* Interactive Modal */}
       <Modal modal={modal} onClose={handleCloseModal} />
+
+      {/* Branzy AI Marketing Strategist Chatbot */}
+      <MarketingChatbot onOpenContactModal={() => handleOpenModal('Book Strategy Session', 'contact')} />
     </div>
   );
 }
